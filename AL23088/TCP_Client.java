@@ -7,7 +7,8 @@ public class TCP_Client {
     public static void main(String[] args) {
         int port = 10007;
         try{
-            Socket skt = new Socket("172.31.45.9", port);
+            /*127.0.0.1はループバックアドレス(自分自身) */
+            Socket skt = new Socket("127.0.0.1", port);
             // サーバへのデータ送信ライタ
             OutputStreamWriter oSW
                 = new OutputStreamWriter(skt.getOutputStream());
