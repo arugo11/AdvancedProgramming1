@@ -1,0 +1,12 @@
+version: '3'
+services:
+
+  tomcat:
+    image: advpro:tomcat
+    container_name: tomcat_test
+    restart: always
+    ports:
+     - 8080:8080
+     - 22:22
+    volumes:
+     - /home/argo/projects/class/AdvancedProgramming1/lesson04/WebApplicationTest/webapp:/usr/local/java/apache-tomcat-9.0.73/webapps/WebApplicationTest:delegated 
