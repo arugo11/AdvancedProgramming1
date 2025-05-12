@@ -12,24 +12,33 @@
     <servlet-class>SimpleServlet</servlet-class>
   </servlet>
 
-    <servlet>
+  <servlet> 
     <servlet-name>Hello23088</servlet-name>
     <servlet-class>Hello23088</servlet-class>
   </servlet>
 
-  <servlet-mapping>
-    <servlet-name>Hello</servlet-name>
-    <url-pattern>/servlet/hello</url-pattern>
-  </servlet-mapping>
+  <servlet>
+    <servlet-name>Plus23088</servlet-name>
+    <servlet-class>Plus23088</servlet-class>
+  </servlet>
+
+
+
   
   <servlet-mapping>
     <servlet-name>Simple</servlet-name>
     <url-pattern>/servlet/Simple/</url-pattern>
   </servlet-mapping>
 
-    <servlet-mapping>
+  <servlet-mapping>
     <servlet-name>Hello23088</servlet-name>
     <url-pattern>/servlet/hello23088/</url-pattern>
   </servlet-mapping>
-  
+
+  <servlet-mapping>
+    <servlet-name>Plus23088</servlet-name>
+    <url-pattern>/servlet/plus23088/</url-pattern>
+  </servlet-mapping>
+
+
 </web-app>
