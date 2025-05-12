@@ -1,3 +1,37 @@
+# --- Java コンパイル成果物 ---
+# クラスファイル
 *.class
+# 出力ディレクトリ
+**/bin/
+**/out/
+**/build/
+**/target/
+# サーブレット用に展開されるクラス
+**/WEB-INF/classes/
 
-*.png
+# --- 外部ライブラリ・バイナリ ---
+# Web アプリの lib 配下に置いた JAR群
+**/WebApplicationTest/lib/
+**/mydocker/WebApplicationTest/webapp/WEB-INF/lib/
+
+# --- Docker Compose ファイル（必要な場合は除外しない） ---
+# もし override.yml や .env を使っていて共有不要ならば
+# docker-compose.override.yml
+# .env
+
+# --- IDE / エディタ設定 ---
+# VS Code
+.vscode/
+# Eclipse
+.settings/
+*.classpath
+*.project
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# --- OS／その他ゴミ ---
+.DS_Store
+Thumbs.db
+*.log
+
