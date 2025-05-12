@@ -4,22 +4,22 @@
 
   <servlet>
     <servlet-name>Hello</servlet-name>
-    <servlet-class>Hello23088</servlet-class>
+    <servlet-class>HelloWorld</servlet-class>
   </servlet>
 
   <servlet>
     <servlet-name>Simple</servlet-name>
-    <servlet-class>PlusAL23088</servlet-class>
+    <servlet-class>SimpleServlet</servlet-class>
   </servlet>
 
   <servlet-mapping>
     <servlet-name>Hello</servlet-name>
-    <url-pattern>/servlet/hello23088</url-pattern>
+    <url-pattern>/servlet/hello</url-pattern>
   </servlet-mapping>
   
   <servlet-mapping>
     <servlet-name>Simple</servlet-name>
-    <url-pattern>/servlet/plusal23088/</url-pattern>
+    <url-pattern>/servlet/Simple/</url-pattern>
   </servlet-mapping>
   
 </web-app>
