@@ -10,6 +10,7 @@ public class TCP_Server {
         int port = 10007;
         try {
             ServerSocket serverSocket = new ServerSocket(port);
+            //? ソケットプログラミングにおいて明示的にflgを記述する必要がある？
             boolean flg = true;
             while (flg == true) {
                 Socket skt = serverSocket.accept();
